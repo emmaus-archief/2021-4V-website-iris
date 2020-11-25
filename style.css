@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(177, 214, 227);  
     
-    color: #303030;
+    color:  color: rgb(197, 101, 105);
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -53,6 +53,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.blokje{
+   color: rgb(197, 101, 105); 
 }
 
 
