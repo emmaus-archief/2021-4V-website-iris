@@ -42,7 +42,7 @@ div{
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.zweefrechts {
     float: right;
     margin-left: 15px;
 }
@@ -53,7 +53,6 @@ img.zweefLinks {
 
 a {
     color: rgb(202, 103, 107);
-    text-decoration: none;
 }
 
 a:hover {
