@@ -45,6 +45,7 @@ div{
 img.zweefrechts {
     float: right;
     margin-left: 15px;
+    width: 45%;
 }
 
 .smalltext {
@@ -61,6 +62,10 @@ a:hover {
 
 .blokje{
    color: rgb(197, 101, 105); 
+}
+
+.footerfoto{
+    width: 2%;
 }
 
 
