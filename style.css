@@ -27,25 +27,31 @@ header {
     text-align: center;
 }
 
-
-footer {
-    text-align: center;
-    padding-bottom: 10px;
-    clear: both;
-    background-color: rgb(177, 214, 227); 
-}
-
+/* artikel divs*/
 div{
     clear: both;
+    margin-bottom: 50px;
 }
 
+div p {
+    float: left;
+    width: 75%;
+    
+}
 
-/* specifieke stijlen */
+img {
+    width: 150px;
+}
+
+div h3{
+    text-align: center;
+}
+
+/*  overige specifieke stijlen */
 
 img.zweefrechts {
     float: right;
     margin-left: 15px;
-    width: 45%;
 }
 
 .smalltext {
@@ -64,9 +70,30 @@ a:hover {
    color: rgb(197, 101, 105); 
 }
 
+.galerij{
+    width: 900px;
+}
+
+/*footer*/
 .footerfoto{
-    width: 20px;
+    width: 50px;
     text-decoration: none;
+}
+
+a img {
+    width: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    clear: both;
+    background-color: rgb(177, 214, 227); 
+    
 }
 
 
