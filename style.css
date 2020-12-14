@@ -5,8 +5,8 @@ html, body {
     padding: 0;
     background-color: rgb(177, 214, 227);  
     
-    color:  color: rgb(197, 101, 105);
-    font: Verdana, Arial, Sans-Serif;
+    color: rgb(197, 101, 105);
+    font-family: Verdana, Arial, Sans-Serif;
 }
 
 
@@ -27,32 +27,49 @@ header {
     text-align: center;
 }
 
-/* artikel divs*/
-div{
-    clear: both;
-    margin-bottom: 50px;
+iframe {
+    height: 220px;
+    width: 700px;
 }
 
+/* artikel divs*/
+.blokje{
+    clear: both;
+    margin-bottom: 30px;
+}
+
+
 div p {
+    font-size: 20px;
     float: left;
-    width: 75%;
-    
+    color: black;
 }
 
 img {
-    width: 150px;
+    width: 175px;
 }
 
 div h3{
     text-align: center;
+    background-color: rgb(200, 234, 255);
+    margin-bottom: 8px;
 }
 
-/*  overige specifieke stijlen */
+img.zweeflinks {
+    float: left;
+    margin-right: 15px;
+    width:175px;
+}
 
 img.zweefrechts {
     float: right;
     margin-left: 15px;
+    width:175px;
 }
+
+
+/*  overige specifieke stijlen */
+
 
 .smalltext {
     font-size: 0.7em;
@@ -66,12 +83,28 @@ a:hover {
     text-decoration: underline;
 }
 
-.blokje{
-   color: rgb(197, 101, 105); 
-}
 
+/*home pagina*/
 .galerij{
     width: 900px;
+}
+
+p.homeblokje{
+    font-size: 18px;
+    float:left;
+    width:48%;
+    
+}
+
+img.homeblokje{
+    float:left;
+    width:48%;
+    margin-right: 10px;
+}
+
+div.homeblokje {
+    margin-bottom: 15px;
+    border: 
 }
 
 /*footer*/
