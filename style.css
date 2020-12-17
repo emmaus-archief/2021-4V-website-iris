@@ -27,12 +27,7 @@ header {
     text-align: center;
 }
 
-iframe {
-    height: 220px;
-    width: 700px;
-}
-
-/* artikel divs*/
+/* artikelen*/
 .blokje{
     clear: both;
     margin-bottom: 30px;
@@ -43,6 +38,7 @@ div p {
     font-size: 20px;
     float: left;
     color: black;
+    text-align: left;
 }
 
 img {
@@ -51,42 +47,128 @@ img {
 
 div h3{
     text-align: center;
-    background-color: rgb(200, 234, 255);
+    background-color: rgb(187, 224, 237);
     margin-bottom: 8px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
 }
 
 img.zweeflinks {
     float: left;
     margin-right: 15px;
-    width:175px;
+    width:21%;
 }
 
 img.zweefrechts {
     float: right;
     margin-left: 15px;
-    width:175px;
+    width:21%;
 }
 
 
-/*  overige specifieke stijlen */
 
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+p img{
+    border-radius: 10px;
+}
+/* kledingstijl met schuifin tekst vanaf boven*/
+.blok{
+    float: left;
+    margin-top: 12px;
+    
+}
+
+.vakje{
+    width: 290px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.plaatje{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.schuif{
+    position: absolute;
+    bottom:100%;
+    right: 0;
+    left: 0;
+    background-color:  rgb(196, 131, 135);
+    opacity: 85%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+
+}
+
+.vakje:hover .schuif{
+    bottom: 0;
+    height: 100%;
+}
+
+.tekst{
+    color: white;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, 50%);
+}
+
+#laatsteblok{
+    margin-bottom: 12px;
+}
+
+/*albums*/
+ul.dealbums li{
+    font-size: 20px;
+}
+
+iframe {
+    height: 220px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+/*  overige specifieke stijlen */
+.verwijs{
+    list-style-type: square;
+}
 
 .smalltext {
     font-size: 0.7em;
+    color: black;
 }
 
 a {
     color: rgb(202, 103, 107);
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 
 /*home pagina*/
 .galerij{
     width: 900px;
+    clear:both;
+    border-radius: 15px;
 }
 
 p.homeblokje{
@@ -100,33 +182,43 @@ img.homeblokje{
     float:left;
     width:48%;
     margin-right: 10px;
+    
 }
 
-div.homeblokje1 {
+#homeblokje1 {
     margin-bottom: 15px;
-    border: 5px solid white;
+    float:left;
+    margin-top: 15px;
 }
 
 /*footer*/
 .footerfoto{
     width: 50px;
-    text-decoration: none;
+    
 }
 
 a img {
     width: 20px;
 }
 
-footer a {
+footer a{
     text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+hr{
+    background-color: black;
+    border: 0.2px solid black;
 }
 
 footer {
     text-align: center;
     padding-bottom: 10px;
     clear: both;
-    background-color: rgb(177, 214, 227); 
-    
+    background-color:rgb(177, 214, 227);
 }
 
 
@@ -135,7 +227,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: rgb(200, 234, 255);
+    background-color: rgb(187, 224, 237);
     overflow: hidden;
 }
 
@@ -152,13 +244,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(147, 212, 253);
+    background-color: rgb(192, 229, 242);
 }
 
 nav li a.active {
-    background-color: rgb(139, 202, 227);
+    background-color: rgb(197,234,247);
 }
-
-
-
-
